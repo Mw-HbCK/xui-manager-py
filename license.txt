@@ -1,0 +1,4 @@
+Copyright (c) 2026 XUI Manager
+
+This software is provided "as-is", without any express or implied warranty.
+This software is intended for lawful management of your own servers only.

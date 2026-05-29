@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+data/
+dist/
+build/
+*.db
+*.key
+.vscode/
+.idea/
+*.exe
+XUI-Manager-Setup.exe
