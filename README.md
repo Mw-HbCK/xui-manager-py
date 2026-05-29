@@ -155,7 +155,3 @@ cryptography>=41.0
 pystray>=0.19
 Pillow>=10.0
 ```
-
-## License
-
-MIT
