@@ -111,7 +111,7 @@ xui-manager-py/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/xui-manager-py.git
+git clone https://github.com/Mw-HbCK/xui-manager-py.git
 cd xui-manager-py
 
 # 安装依赖
@@ -155,7 +155,3 @@ cryptography>=41.0
 pystray>=0.19
 Pillow>=10.0
 ```
-
-## License
-
-MIT
