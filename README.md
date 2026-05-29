@@ -111,7 +111,7 @@ xui-manager-py/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/xui-manager-py.git
+git clone https://github.com/Mw-HbCK/xui-manager-py.git
 cd xui-manager-py
 
 # 安装依赖
