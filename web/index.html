@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XUI Manager — 3X-UI 面板管理</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles/app.css">
+    <link rel="stylesheet" href="/static/materialdesignicons.min.css">
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Vue 3 框架 -->
+    <script src="/static/vue.global.prod.js"></script>
+    <script>window.API_PORT = window.location.port || '80';</script>
+
+    <!-- 组合式函数 -->
+    <script src="/static/composables/useToast.js"></script>
+    <script src="/static/composables/useApi.js"></script>
+    <script src="/static/composables/useServerStore.js"></script>
+
+    <!-- ══════ Vue 组件模板（必须在组件脚本前加载） ══════ -->
+    <script src="/static/templates.js"></script>
+
+    <!-- 通用组件 -->
+    <script src="/static/components/common/Toast.js"></script>
+    <script src="/static/components/common/StatusBadge.js"></script>
+    <script src="/static/components/common/ConfirmDialog.js"></script>
+    <!-- 功能组件 -->
+    <script src="/static/components/ServerCard.js"></script>
+    <script src="/static/components/ServerForm.js"></script>
+    <script src="/static/components/BatchActionBar.js"></script>
+    <script src="/static/components/InboundList.js"></script>
+    <script src="/static/components/InboundForm.js"></script>
+    <script src="/static/components/InboundDetail.js"></script>
+    <script src="/static/components/ClientList.js"></script>
+    <script src="/static/components/ClientForm.js"></script>
+    <script src="/static/components/ClientTraffic.js"></script>
+    <script src="/static/components/ServerStatus.js"></script>
+    <script src="/static/components/XrayLogs.js"></script>
+    <script src="/static/components/ServerConfig.js"></script>
+    <script src="/static/components/ApiLogTable.js"></script>
+    <script src="/static/components/ApiLogDetail.js"></script>
+    <script src="/static/qrcode.min.js"></script>
+    <script src="/static/components/QRCodeModal.js"></script>
+
+    <!-- 布局组件 -->
+    <script src="/static/components/Sidebar.js"></script>
+    <script src="/static/components/TopBar.js"></script>
+
+    <!-- 视图 -->
+    <script src="/static/views/DashboardView.js"></script>
+    <script src="/static/views/AnalyticsView.js"></script>
+    <script src="/static/views/ServersView.js"></script>
+    <script src="/static/views/InboundsView.js"></script>
+    <script src="/static/views/ServerMgmtView.js"></script>
+    <script src="/static/views/LogsView.js"></script>
+    <script src="/static/views/SettingsView.js"></script>
+    <script src="/static/views/InboundDetailView.js"></script>
+
+    <script src="/static/components/SearchModal.js"></script>
+
+    <!-- 核心 -->
+    <script src="/static/components/LockScreen.js"></script>
+    <script src="/static/components/AppShell.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
